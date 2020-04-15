@@ -1,6 +1,6 @@
-## React App - Food Recipe App
+## React App - Food Recipes App 
 
-This simple app allows users to access a list of recipes by typing a (food) keyword in an input field. These recipes were got by an API.
+This simple app allows users to access different recipes of food by typing the name of the food on the input search. The recipies was got by an API.
 
 
 
@@ -37,8 +37,8 @@ This project was built using these technologies.
 
 Download or clone the [repo here](https://github.com/thsvr/react-recipe-tut.), enter the directory in the terminal and run the commands:
 
-- `$ cd react-recipe-tut.`
-- `$ npm i`
+- `$ cd react-recipe-tut./my-app`
+- `$ npm init`
 - `$ npm start`
 - Your default browser should open the app at the localhost:3000
 
@@ -61,4 +61,4 @@ Download or clone the [repo here](https://github.com/thsvr/react-recipe-tut.), e
 <br>
 <br>
 
-This app was created following <a href="https://www.youtube.com/watch?v=U9T6YkEDkMo">this tutorial on in channel "Dev Ed"</a> 
+This app was created following <a href="https://www.youtube.com/watch?v=U9T6YkEDkMo">this tutorial of Dev Ed channel</a> 
