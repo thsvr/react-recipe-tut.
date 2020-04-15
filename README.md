@@ -63,4 +63,4 @@ Download or clone the [repo here](https://github.com/thsvr/react-recipe-tut.), e
 
 - This app was created following <a href="https://www.youtube.com/watch?v=U9T6YkEDkMo">this tutorial of Dev Ed channel</a>.
 - The icons used were taken on <a href="https://fontawesome.com/icons?d=gallery&q=food">Fontawsome</a>
-- The API used was got on <a href="#">this site</a>
+- The API used was got on <a href="https://developer.edamam.com/">Edamam API</a>
