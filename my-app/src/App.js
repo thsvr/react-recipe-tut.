@@ -12,7 +12,7 @@ const App = () => {
   
   useEffect( () =>{
     getRecipes();
-  }, []);
+  }, [query]);
 
   const getRecipes = async () => {
     const response = await fetch(
@@ -28,9 +28,14 @@ const App = () => {
     console.log(search)
   };
 
+  const getSearch = e => {
+    e.preventDefault();
+    setQuery(search);
+  }
+
   return (
     <div className="App">
-      <form className="search-form">
+      <form onSubmit={getSearch} className="search-form">
         <input 
         className="search-bar" 
         type="text" 
