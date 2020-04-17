@@ -36,10 +36,12 @@ const App = () => {
 
   return (
     <div className="App">
+      <h1 className="title">Online Food Recipes</h1>
       <form onSubmit={getSearch} className="search-form">
         <input 
         className="search-bar" 
         type="text" 
+        placeholder="Type the ingredient to see the recipes available"
         value={search}
         onChange={updateSearch}></input>
         <button className="search-button" type="submit">
@@ -51,7 +53,6 @@ const App = () => {
           <Recipe 
           key={recipe.recipe.label}
           title={recipe.recipe.label}
-          calories={recipe.recipe.calories}
           image={recipe.recipe.image}
           ingredients={recipe.recipe.ingredients}
           />

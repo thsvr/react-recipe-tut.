@@ -1,7 +1,19 @@
 .App {
   width: auto;
   min-height: 100vh;
-  background-color: lightgreen;
+  background-color: rgb(119, 0, 0);
+}
+.title {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px;
+color: white;
+box-shadow: 0 5px 20px black;
+}
+
+.fas {
+  font-size: 100px;
 }
 
 .search-form {
@@ -18,10 +30,17 @@
 }
 
 .search-button {
-  background-color: lightcoral;
+  background-color: rgb(46, 45, 45);
   border: none;
   padding: 10px 20px;
-  color:white
+  color:white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-button:hover {
+  background-color: black;
+  font-weight: bolder;
 }
 
 .recipes {

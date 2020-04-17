@@ -8,10 +8,11 @@
   background: white;
   align-items: center;
   min-width: 40%;
+  padding: 10px;
 }
 
 .image {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
 }
