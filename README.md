@@ -8,8 +8,7 @@ This simple app allows users to access different recipes of food by typing the n
 
 
 <div align="center">
-  <img src="1desktop.png" width="150" height="150">
-  <img src="1mobile.png" width="120" height="120">
+  <img src="recipe.png" width="300" height="300">
 </div>
 
 
